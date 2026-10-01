@@ -1,0 +1,4047 @@
+[
+  {
+    "payment_id": "P000001",
+    "created_at": "2025-08-18T18:30:00Z",
+    "payer": {
+      "account_id": "A00063",
+      "customer_id": "C0049"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT682667"
+    },
+    "payment": {
+      "amount": 213259.88,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 0
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000002",
+    "created_at": "2025-01-27T02:44:00Z",
+    "payer": {
+      "account_id": "A00061",
+      "customer_id": "C0017"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT840255"
+    },
+    "payment": {
+      "amount": 116788.54,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 5
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": false,
+      "labels": [
+        "",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000003",
+    "created_at": "2025-12-25T23:35:00Z",
+    "payer": {
+      "account_id": "A00015",
+      "customer_id": "C0055"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT229660"
+    },
+    "payment": {
+      "amount": 87407.58,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 2.5
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": false,
+      "labels": [
+        "recurring",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000004",
+    "created_at": "2025-01-04T00:06:00Z",
+    "payer": {
+      "account_id": "A00068",
+      "customer_id": "C0050"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT289340"
+    },
+    "payment": {
+      "amount": 104110.58,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 0
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": true,
+      "labels": [
+        "high_value",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000005",
+    "created_at": "2025-07-27T00:10:00Z",
+    "payer": {
+      "account_id": "A00088",
+      "customer_id": "C0044"
+    },
+    "payee": {
+      "name": "Rent",
+      "account_ref": "EXT513316"
+    },
+    "payment": {
+      "amount": -45,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 2.5
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": true,
+      "labels": [
+        "",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000006",
+    "created_at": "2025-12-16T10:04:00Z",
+    "payer": {
+      "account_id": "A00059",
+      "customer_id": "C0041"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT723068"
+    },
+    "payment": {
+      "amount": 164505.0,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 0
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000007",
+    "created_at": "2025-07-26T00:58:00Z",
+    "payer": {
+      "account_id": "A00042",
+      "customer_id": "C0052"
+    },
+    "payee": {
+      "name": "Rent",
+      "account_ref": "EXT879930"
+    },
+    "payment": {
+      "amount": 17690.32,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 0
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000008",
+    "created_at": "2025-03-06T22:40:00Z",
+    "payer": {
+      "account_id": "A00003",
+      "customer_id": "C0055"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT270855"
+    },
+    "payment": {
+      "amount": 97131.84,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 2.5
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": false,
+      "labels": [
+        "",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000009",
+    "created_at": "2025-08-14T19:24:00Z",
+    "payer": {
+      "account_id": "A00088",
+      "customer_id": "C0039"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT476485"
+    },
+    "payment": {
+      "amount": 166383.42,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 15
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": false,
+      "labels": [
+        "",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000010",
+    "created_at": "2025-07-15T12:01:00Z",
+    "payer": {
+      "account_id": "A99999",
+      "customer_id": "C0039"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT194604"
+    },
+    "payment": {
+      "amount": 189125.1,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 15
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": false,
+      "labels": [
+        "utility",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000011",
+    "created_at": "2025-09-06T20:25:00Z",
+    "payer": {
+      "account_id": "A00060",
+      "customer_id": "C0044"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT779068"
+    },
+    "payment": {
+      "amount": 171562.27,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 5
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": false,
+      "labels": [
+        "",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000012",
+    "created_at": "2025-12-14T18:51:00Z",
+    "payer": {
+      "account_id": "A00039",
+      "customer_id": "C0010"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT817555"
+    },
+    "payment": {
+      "amount": 225726.88,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 15
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": true,
+      "labels": [
+        "utility",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000013",
+    "created_at": "2025-03-20T09:00:00Z",
+    "payer": {
+      "account_id": "A00066",
+      "customer_id": "C0028"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT199074"
+    },
+    "payment": {
+      "amount": 116169.48,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 2.5
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": true,
+      "labels": [
+        "utility",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000014",
+    "created_at": "2025-12-04T01:23:00Z",
+    "payer": {
+      "account_id": "A00023",
+      "customer_id": "C0051"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT983855"
+    },
+    "payment": {
+      "amount": 98245.4,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 5
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": false,
+      "labels": [
+        "",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000015",
+    "created_at": "2025-07-13T00:30:00Z",
+    "payer": {
+      "account_id": "A00044",
+      "customer_id": "C0059"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT321321"
+    },
+    "payment": {
+      "amount": 46280.0,
+      "currency": "EUR",
+      "method": "IMPS",
+      "fee": 0
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": true,
+      "labels": [
+        "utility",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000016",
+    "created_at": "2025-03-26T23:06:00Z",
+    "payer": {
+      "account_id": "A00002",
+      "customer_id": "C0011"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT582515"
+    },
+    "payment": {
+      "amount": 172954.64,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 2.5
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": false,
+      "labels": [
+        "high_value",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000017",
+    "created_at": "2025-04-02T02:05:00Z",
+    "payer": {
+      "account_id": "A00018",
+      "customer_id": "C0001"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT217348"
+    },
+    "payment": {
+      "amount": 203993.9,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 0
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000018",
+    "created_at": "2025-05-20T00:28:00Z",
+    "payer": {
+      "account_id": "A00012",
+      "customer_id": "C0020"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT255362"
+    },
+    "payment": {
+      "amount": 118502.53,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 0
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": false,
+      "labels": [
+        "",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000019",
+    "created_at": "2025-01-15T07:01:00Z",
+    "payer": {
+      "account_id": "A00058",
+      "customer_id": "C0038"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT311118"
+    },
+    "payment": {
+      "amount": 73714.9,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 0
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": true,
+      "labels": [
+        "",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000020",
+    "created_at": "2025-12-27T23:02:00Z",
+    "payer": {
+      "account_id": "A00075",
+      "customer_id": "C0039"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT404899"
+    },
+    "payment": {
+      "amount": 9263.93,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": null
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": true,
+      "labels": [
+        "utility",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000021",
+    "created_at": "2025-08-18T23:52:00Z",
+    "payer": {
+      "account_id": "A00071",
+      "customer_id": "C0005"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT779792"
+    },
+    "payment": {
+      "amount": 104290.19,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 0
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": false,
+      "labels": [
+        "",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000022",
+    "created_at": "2025-11-14T15:40:00Z",
+    "payer": {
+      "account_id": "A00003",
+      "customer_id": "C0011"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT861485"
+    },
+    "payment": {
+      "amount": 48058.4,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 5
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": true,
+      "labels": [
+        "high_value",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000023",
+    "created_at": "2025-12-08T03:03:00Z",
+    "payer": {
+      "account_id": "A00017",
+      "customer_id": "C0057"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT858115"
+    },
+    "payment": {
+      "amount": 177849.18,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 2.5
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": true,
+      "labels": [
+        "high_value",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000024",
+    "created_at": "2025-03-04T18:18:00Z",
+    "payer": {
+      "account_id": "A00086",
+      "customer_id": "C0031"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT281708"
+    },
+    "payment": {
+      "amount": 49879.06,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 0
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": false,
+      "labels": [
+        "recurring",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000025",
+    "created_at": "2025-02-04T06:14:00Z",
+    "payer": {
+      "account_id": "A00003",
+      "customer_id": "C0023"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT474387"
+    },
+    "payment": {
+      "amount": 169235.2,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 15
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": false,
+      "labels": [
+        "",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000026",
+    "created_at": "2025-06-15T01:41:00Z",
+    "payer": {
+      "account_id": "A00016",
+      "customer_id": "C0036"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT609990"
+    },
+    "payment": {
+      "amount": 64462.96,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 2.5
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": false,
+      "labels": [
+        "recurring",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000027",
+    "created_at": "2025-03-17T20:00:00Z",
+    "payer": {
+      "account_id": "A00007",
+      "customer_id": "C0060"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT937798"
+    },
+    "payment": {
+      "amount": 114289.34,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 0
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": true,
+      "labels": [
+        "utility",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000028",
+    "created_at": "2025-03-27T23:14:00Z",
+    "payer": {
+      "account_id": "A00027",
+      "customer_id": "C0059"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT264660"
+    },
+    "payment": {
+      "amount": 182090.04,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 15
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000029",
+    "created_at": "2025-09-22T20:45:00Z",
+    "payer": {
+      "account_id": "A00043",
+      "customer_id": "C0053"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT228957"
+    },
+    "payment": {
+      "amount": 212150.29,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 5
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": false,
+      "labels": [
+        "high_value",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000030",
+    "created_at": "2025-05-05T17:01:00Z",
+    "payer": {
+      "account_id": "A00011",
+      "customer_id": "C0018"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT849941"
+    },
+    "payment": null,
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": false,
+      "labels": [
+        "recurring",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000031",
+    "created_at": "2025-11-09T06:13:00Z",
+    "payer": {
+      "account_id": "A00053",
+      "customer_id": "C0059"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT581037"
+    },
+    "payment": {
+      "amount": 237960.62,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 0
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": true,
+      "labels": [
+        "utility",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000032",
+    "created_at": "2025-09-04T08:17:00Z",
+    "payer": {
+      "account_id": "A00041",
+      "customer_id": "C0026"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT555157"
+    },
+    "payment": {
+      "amount": 15376.47,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 0
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": false,
+      "labels": [
+        "",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000033",
+    "created_at": "2025-08-10T14:25:00Z",
+    "payer": {
+      "account_id": "A00041",
+      "customer_id": "C0059"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT108286"
+    },
+    "payment": {
+      "amount": 206752.62,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 5
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": true,
+      "labels": [
+        "",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000034",
+    "created_at": "2025-09-09T09:41:00Z",
+    "payer": {
+      "account_id": "A00084",
+      "customer_id": "C0026"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT416178"
+    },
+    "payment": {
+      "amount": 21079.39,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 5
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": false,
+      "labels": [
+        "recurring",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000035",
+    "created_at": "2025-08-16T09:00:00Z",
+    "payer": {
+      "account_id": "A00067",
+      "customer_id": "C0022"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT124559"
+    },
+    "payment": {
+      "amount": 6982.53,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 0
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": false,
+      "labels": [
+        "utility",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000036",
+    "created_at": "2025-02-13T15:37:00Z",
+    "payer": {
+      "account_id": "A00048",
+      "customer_id": "C0017"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT471692"
+    },
+    "payment": {
+      "amount": 30962.02,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 5
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": true,
+      "labels": [
+        "",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000037",
+    "created_at": "2025-06-21T22:05:00Z",
+    "payer": {
+      "account_id": "A00075",
+      "customer_id": "C0037"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT985517"
+    },
+    "payment": {
+      "amount": 148891.27,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 2.5
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": true,
+      "labels": [
+        "",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000038",
+    "created_at": "2025-06-30T07:42:00Z",
+    "payer": {
+      "account_id": "A00014",
+      "customer_id": "C0021"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT710658"
+    },
+    "payment": {
+      "amount": 48146.89,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 5
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": false,
+      "labels": [
+        "",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000039",
+    "created_at": "2025-03-09T04:09:00Z",
+    "payer": {
+      "account_id": "A00008",
+      "customer_id": "C0028"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT599387"
+    },
+    "payment": {
+      "amount": 53703.95,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 2.5
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": false,
+      "labels": [
+        "high_value",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000040",
+    "created_at": "2025/99/99",
+    "payer": {
+      "account_id": "A00082",
+      "customer_id": "C0028"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT822487"
+    },
+    "payment": {
+      "amount": 232759.59,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 5
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": true,
+      "labels": [
+        "",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000041",
+    "created_at": "2025-11-30T07:06:00Z",
+    "payer": {
+      "account_id": "A00017",
+      "customer_id": "C0046"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT654844"
+    },
+    "payment": {
+      "amount": 29523.36,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 5
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": true,
+      "labels": [
+        "high_value",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000042",
+    "created_at": "2025-10-25T13:08:00Z",
+    "payer": {
+      "account_id": "A00015",
+      "customer_id": "C0008"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT699538"
+    },
+    "payment": {
+      "amount": 72404.75,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 0
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": false,
+      "labels": [
+        "high_value",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000043",
+    "created_at": "2025-12-20T20:09:00Z",
+    "payer": {
+      "account_id": "A00004",
+      "customer_id": "C0051"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT249044"
+    },
+    "payment": {
+      "amount": 195950.29,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 0
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000044",
+    "created_at": "2025-12-22T22:17:00Z",
+    "payer": {
+      "account_id": "A00001",
+      "customer_id": "C0008"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT465584"
+    },
+    "payment": {
+      "amount": 16900.46,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 5
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": false,
+      "labels": [
+        "",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000045",
+    "created_at": "2025-10-02T17:53:00Z",
+    "payer": {
+      "account_id": "A00061",
+      "customer_id": "C0054"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT239260"
+    },
+    "payment": {
+      "amount": 190490.19,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 5
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": false,
+      "labels": [
+        "utility",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000046",
+    "created_at": "2025-10-26T06:46:00Z",
+    "payer": {
+      "account_id": "A00050",
+      "customer_id": "C0015"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT455465"
+    },
+    "payment": {
+      "amount": 135253.2,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 2.5
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": true,
+      "labels": [
+        "high_value",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000047",
+    "created_at": "2025-04-01T03:14:00Z",
+    "payer": {
+      "account_id": "A00083",
+      "customer_id": "C0036"
+    },
+    "payee": {
+      "name": "Rent",
+      "account_ref": "EXT301774"
+    },
+    "payment": {
+      "amount": 238792.53,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 15
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": true,
+      "labels": [
+        "utility",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000048",
+    "created_at": "2025-05-11T21:14:00Z",
+    "payer": {
+      "account_id": "A00003",
+      "customer_id": "C0018"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT357201"
+    },
+    "payment": {
+      "amount": 207424.34,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 0
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": true,
+      "labels": [
+        "",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000049",
+    "created_at": "2025-09-05T13:10:00Z",
+    "payer": {
+      "account_id": "A00056",
+      "customer_id": "C0012"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT125225"
+    },
+    "payment": {
+      "amount": 214913.51,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 5
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": true,
+      "labels": [
+        "utility",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000050",
+    "created_at": "2025-05-03T10:44:00Z",
+    "payer": {
+      "account_id": "A00037",
+      "customer_id": "C0010"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT367968"
+    },
+    "payment": {
+      "amount": 192078.49,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 2.5
+    },
+    "status": null,
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": true,
+      "labels": [
+        "utility",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000051",
+    "created_at": "2025-08-25T20:52:00Z",
+    "payer": {
+      "account_id": "A00024",
+      "customer_id": "C0002"
+    },
+    "payee": {
+      "name": "Rent",
+      "account_ref": "EXT412501"
+    },
+    "payment": {
+      "amount": 97491.03,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 0
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": false,
+      "labels": [
+        "",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000052",
+    "created_at": "2025-02-07T18:38:00Z",
+    "payer": {
+      "account_id": "A00026",
+      "customer_id": "C0016"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT714496"
+    },
+    "payment": {
+      "amount": 59130.41,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 0
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": false,
+      "labels": [
+        "",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000053",
+    "created_at": "2025-10-24T10:10:00Z",
+    "payer": {
+      "account_id": "A00009",
+      "customer_id": "C0031"
+    },
+    "payee": {
+      "name": "Rent",
+      "account_ref": "EXT527288"
+    },
+    "payment": {
+      "amount": 158388.99,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 2.5
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": true,
+      "labels": [
+        "high_value",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000054",
+    "created_at": "2025-10-24T04:24:00Z",
+    "payer": {
+      "account_id": "A00058",
+      "customer_id": "C0006"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT313340"
+    },
+    "payment": {
+      "amount": 195722.57,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 2.5
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": false,
+      "labels": [
+        "",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000055",
+    "created_at": "2025-01-01T17:29:00Z",
+    "payer": {
+      "account_id": "A00060",
+      "customer_id": "C0054"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT403300"
+    },
+    "payment": {
+      "amount": 163268.18,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 0
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": false,
+      "labels": [
+        "high_value",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000056",
+    "created_at": "2025-10-04T19:39:00Z",
+    "payer": {
+      "account_id": "A00045",
+      "customer_id": "C0054"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT713583"
+    },
+    "payment": {
+      "amount": 210172.64,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 0
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": true,
+      "labels": [
+        "high_value",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000057",
+    "created_at": "2025-10-15T20:27:00Z",
+    "payer": {
+      "account_id": "A00090",
+      "customer_id": "C0008"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT860294"
+    },
+    "payment": {
+      "amount": 139124.21,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 5
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": false,
+      "labels": [
+        "high_value",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000058",
+    "created_at": "2025-07-10T07:36:00Z",
+    "payer": {
+      "account_id": "A00058",
+      "customer_id": "C0018"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT794447"
+    },
+    "payment": {
+      "amount": 245755.66,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 0
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": false,
+      "labels": [
+        "utility",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000059",
+    "created_at": "2025-04-08T09:01:00Z",
+    "payer": {
+      "account_id": "A00083",
+      "customer_id": "C0060"
+    },
+    "payee": {
+      "name": "Rent",
+      "account_ref": "EXT738359"
+    },
+    "payment": {
+      "amount": 119137.47,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 0
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": false,
+      "labels": [
+        "",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000059",
+    "created_at": "2025-03-01T02:10:00Z",
+    "payer": {
+      "account_id": "A00084",
+      "customer_id": "C0042"
+    },
+    "payee": {
+      "name": "Rent",
+      "account_ref": "EXT664814"
+    },
+    "payment": {
+      "amount": 7746.57,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 0
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": false,
+      "labels": [
+        "",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000061",
+    "created_at": "2025-01-07T03:20:00Z",
+    "payer": {
+      "account_id": "A00016",
+      "customer_id": "C0030"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT302365"
+    },
+    "payment": {
+      "amount": 111149.97,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 0
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": false,
+      "labels": [
+        "recurring",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000062",
+    "created_at": "2025-08-09T18:25:00Z",
+    "payer": {
+      "account_id": "A00029",
+      "customer_id": "C0015"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT480632"
+    },
+    "payment": {
+      "amount": 9208.64,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 15
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": true,
+      "labels": [
+        "",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000063",
+    "created_at": "2025-07-21T22:59:00Z",
+    "payer": {
+      "account_id": "A00073",
+      "customer_id": "C0033"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT278758"
+    },
+    "payment": {
+      "amount": 137950.78,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 0
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000064",
+    "created_at": "2025-06-15T23:58:00Z",
+    "payer": {
+      "account_id": "A00067",
+      "customer_id": "C0047"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT301170"
+    },
+    "payment": {
+      "amount": 211918.32,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 15
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": false,
+      "labels": [
+        "utility",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000065",
+    "created_at": "2025-02-07T18:22:00Z",
+    "payer": {
+      "account_id": "A00042",
+      "customer_id": "C0028"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT387347"
+    },
+    "payment": {
+      "amount": 30438.21,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 5
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000066",
+    "created_at": "2025-07-22T09:13:00Z",
+    "payer": {
+      "account_id": "A00054",
+      "customer_id": "C0035"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT431603"
+    },
+    "payment": {
+      "amount": 1299.77,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 2.5
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000067",
+    "created_at": "2025-11-05T14:47:00Z",
+    "payer": {
+      "account_id": "A00010",
+      "customer_id": "C0059"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT306440"
+    },
+    "payment": {
+      "amount": 41128.75,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 0
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": false,
+      "labels": [
+        "",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000068",
+    "created_at": "2025-09-01T10:21:00Z",
+    "payer": {
+      "account_id": "A00033",
+      "customer_id": "C0016"
+    },
+    "payee": {
+      "name": "Rent",
+      "account_ref": "EXT596580"
+    },
+    "payment": {
+      "amount": 59597.42,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 0
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": true,
+      "labels": [
+        "utility",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000069",
+    "created_at": "2025-11-16T07:51:00Z",
+    "payer": {
+      "account_id": "A00013",
+      "customer_id": "C0041"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT707056"
+    },
+    "payment": {
+      "amount": 31215.34,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 0
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000070",
+    "created_at": "2025-11-18T19:05:00Z",
+    "payer": {
+      "account_id": "A00008",
+      "customer_id": "C0020"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT756602"
+    },
+    "payment": {
+      "amount": 107965.43,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 0
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": false,
+      "labels": [
+        "",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000071",
+    "created_at": "2025-10-27T08:37:00Z",
+    "payer": {
+      "account_id": "A00030",
+      "customer_id": "C0056"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT925727"
+    },
+    "payment": {
+      "amount": 164934.41,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 5
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": false,
+      "labels": [
+        "utility",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000072",
+    "created_at": "2025-01-19T21:53:00Z",
+    "payer": {
+      "account_id": "A00059",
+      "customer_id": "C0034"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT716366"
+    },
+    "payment": {
+      "amount": 48128.4,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 0
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000073",
+    "created_at": "2025-07-06T14:55:00Z",
+    "payer": {
+      "account_id": "A00046",
+      "customer_id": "C0027"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT859822"
+    },
+    "payment": {
+      "amount": 155216.51,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 0
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000074",
+    "created_at": "2025-11-14T08:59:00Z",
+    "payer": {
+      "account_id": "A00066",
+      "customer_id": "C0042"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT426304"
+    },
+    "payment": {
+      "amount": 145920.64,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 0
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": false,
+      "labels": [
+        "high_value",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000075",
+    "created_at": "2025-01-06T21:14:00Z",
+    "payer": {
+      "account_id": "A00067",
+      "customer_id": "C0038"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT160101"
+    },
+    "payment": {
+      "amount": 59354.46,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 5
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000076",
+    "created_at": "2025-09-06T17:03:00Z",
+    "payer": {
+      "account_id": "A00025",
+      "customer_id": "C0043"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT828531"
+    },
+    "payment": {
+      "amount": 172963.33,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 15
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": false,
+      "labels": [
+        "high_value",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000077",
+    "created_at": "2025-08-28T07:02:00Z",
+    "payer": {
+      "account_id": "A00021",
+      "customer_id": "C0007"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT927527"
+    },
+    "payment": {
+      "amount": 227636.65,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 0
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000078",
+    "created_at": "2025-06-05T04:51:00Z",
+    "payer": {
+      "account_id": "A00031",
+      "customer_id": "C0031"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT946485"
+    },
+    "payment": {
+      "amount": 185022.95,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 5
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": false,
+      "labels": [
+        "utility",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000079",
+    "created_at": "2025-09-18T14:31:00Z",
+    "payer": {
+      "account_id": "A00004",
+      "customer_id": "C0036"
+    },
+    "payee": {
+      "name": "Rent",
+      "account_ref": "EXT249319"
+    },
+    "payment": {
+      "amount": 72651.15,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 15
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000080",
+    "created_at": "2025-07-26T21:01:00Z",
+    "payer": {
+      "account_id": "A00023",
+      "customer_id": "C0015"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT853754"
+    },
+    "payment": {
+      "amount": 43579.39,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 0
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": true,
+      "labels": [
+        "high_value",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000081",
+    "created_at": "2025-01-16T06:53:00Z",
+    "payer": {
+      "account_id": "A00087",
+      "customer_id": "C0009"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT786680"
+    },
+    "payment": {
+      "amount": 196855.65,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 2.5
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": false,
+      "labels": [
+        "recurring",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000082",
+    "created_at": "2025-09-29T03:17:00Z",
+    "payer": {
+      "account_id": "A00085",
+      "customer_id": "C0011"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT937836"
+    },
+    "payment": {
+      "amount": 249423.75,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 0
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000083",
+    "created_at": "2025-10-03T09:26:00Z",
+    "payer": {
+      "account_id": "A00089",
+      "customer_id": "C0024"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT728672"
+    },
+    "payment": {
+      "amount": 107390.75,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 0
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": false,
+      "labels": [
+        "recurring",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000084",
+    "created_at": "2025-06-29T23:38:00Z",
+    "payer": {
+      "account_id": "A00007",
+      "customer_id": "C0041"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT232601"
+    },
+    "payment": {
+      "amount": 212877.14,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 0
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000085",
+    "created_at": "2025-10-10T14:48:00Z",
+    "payer": {
+      "account_id": "A00083",
+      "customer_id": "C0049"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT492446"
+    },
+    "payment": {
+      "amount": 124651.96,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 0
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": false,
+      "labels": [
+        "",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000086",
+    "created_at": "2025-12-27T07:07:00Z",
+    "payer": {
+      "account_id": "A00061",
+      "customer_id": "C0018"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT520422"
+    },
+    "payment": {
+      "amount": 159530.02,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 0
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": false,
+      "labels": [
+        "recurring",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000087",
+    "created_at": "2025-06-09T04:12:00Z",
+    "payer": {
+      "account_id": "A00040",
+      "customer_id": "C0028"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT699125"
+    },
+    "payment": {
+      "amount": 39310.76,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 2.5
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": true,
+      "labels": [
+        "high_value",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000088",
+    "created_at": "2025-09-14T00:13:00Z",
+    "payer": {
+      "account_id": "A00030",
+      "customer_id": "C0038"
+    },
+    "payee": {
+      "name": "Rent",
+      "account_ref": "EXT587853"
+    },
+    "payment": {
+      "amount": 128070.4,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 5
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": false,
+      "labels": [
+        "",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000089",
+    "created_at": "2025-12-29T07:11:00Z",
+    "payer": {
+      "account_id": "A00041",
+      "customer_id": "C0018"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT125918"
+    },
+    "payment": {
+      "amount": 44899.64,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 2.5
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": true,
+      "labels": [
+        "high_value",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000090",
+    "created_at": "2025-02-26T21:55:00Z",
+    "payer": {
+      "account_id": "A00036",
+      "customer_id": "C0060"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT203189"
+    },
+    "payment": {
+      "amount": 29655.78,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 0
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": true,
+      "labels": [
+        "high_value",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000091",
+    "created_at": "2025-08-09T10:20:00Z",
+    "payer": {
+      "account_id": "A00088",
+      "customer_id": "C0055"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT299903"
+    },
+    "payment": {
+      "amount": 176413.6,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 15
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": false,
+      "labels": [
+        "high_value",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000092",
+    "created_at": "2025-10-22T01:06:00Z",
+    "payer": {
+      "account_id": "A00052",
+      "customer_id": "C0053"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT894617"
+    },
+    "payment": {
+      "amount": 163830.57,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 15
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000093",
+    "created_at": "2025-06-02T19:49:00Z",
+    "payer": {
+      "account_id": "A00061",
+      "customer_id": "C0015"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT715517"
+    },
+    "payment": {
+      "amount": 196495.8,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 5
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": false,
+      "labels": [
+        "recurring",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000094",
+    "created_at": "2025-11-01T03:37:00Z",
+    "payer": {
+      "account_id": "A00027",
+      "customer_id": "C0029"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT994376"
+    },
+    "payment": {
+      "amount": 139616.12,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 0
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": true,
+      "labels": [
+        "",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000095",
+    "created_at": "2025-09-16T06:10:00Z",
+    "payer": {
+      "account_id": "A00044",
+      "customer_id": "C0015"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT546399"
+    },
+    "payment": {
+      "amount": 171443.84,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 15
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": true,
+      "labels": [
+        "utility",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000096",
+    "created_at": "2025-04-22T21:56:00Z",
+    "payer": {
+      "account_id": "A00043",
+      "customer_id": "C0037"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT737363"
+    },
+    "payment": {
+      "amount": 143473.94,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 5
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": true,
+      "labels": [
+        "",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000097",
+    "created_at": "2025-12-12T17:20:00Z",
+    "payer": {
+      "account_id": "A00014",
+      "customer_id": "C0022"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT573469"
+    },
+    "payment": {
+      "amount": 159754.44,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 0
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": true,
+      "labels": [
+        "utility",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000098",
+    "created_at": "2025-12-22T19:08:00Z",
+    "payer": {
+      "account_id": "A00004",
+      "customer_id": "C0012"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT172866"
+    },
+    "payment": {
+      "amount": 227837.21,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 2.5
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": false,
+      "labels": [
+        "utility",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000099",
+    "created_at": "2025-02-11T20:04:00Z",
+    "payer": {
+      "account_id": "A00048",
+      "customer_id": "C0034"
+    },
+    "payee": {
+      "name": "Rent",
+      "account_ref": "EXT280172"
+    },
+    "payment": {
+      "amount": 81699.75,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 5
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": true,
+      "labels": [
+        "",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000100",
+    "created_at": "2025-02-20T01:43:00Z",
+    "payer": {
+      "account_id": "A00050",
+      "customer_id": "C0058"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT236243"
+    },
+    "payment": {
+      "amount": 217613.56,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 5
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": false,
+      "labels": [
+        "recurring",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000101",
+    "created_at": "2025-12-01T04:50:00Z",
+    "payer": {
+      "account_id": "A00036",
+      "customer_id": "C0013"
+    },
+    "payee": {
+      "name": "Rent",
+      "account_ref": "EXT249623"
+    },
+    "payment": {
+      "amount": 111438.44,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 15
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": false,
+      "labels": [
+        "",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000102",
+    "created_at": "2025-12-03T22:11:00Z",
+    "payer": {
+      "account_id": "A00074",
+      "customer_id": "C0003"
+    },
+    "payee": {
+      "name": "Rent",
+      "account_ref": "EXT401897"
+    },
+    "payment": {
+      "amount": 161578.32,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 2.5
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": true,
+      "labels": [
+        "",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000103",
+    "created_at": "2025-05-11T18:21:00Z",
+    "payer": {
+      "account_id": "A00080",
+      "customer_id": "C0047"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT580067"
+    },
+    "payment": {
+      "amount": 96172.4,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 15
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000104",
+    "created_at": "2025-07-19T08:35:00Z",
+    "payer": {
+      "account_id": "A00081",
+      "customer_id": "C0035"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT799040"
+    },
+    "payment": {
+      "amount": 229074.92,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 5
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": true,
+      "labels": [
+        "high_value",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000105",
+    "created_at": "2025-03-18T14:55:00Z",
+    "payer": {
+      "account_id": "A00065",
+      "customer_id": "C0050"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT530016"
+    },
+    "payment": {
+      "amount": 112739.49,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 0
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": true,
+      "labels": [
+        "utility",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000106",
+    "created_at": "2025-12-03T08:21:00Z",
+    "payer": {
+      "account_id": "A00049",
+      "customer_id": "C0022"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT997343"
+    },
+    "payment": {
+      "amount": 48608.95,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 0
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": true,
+      "labels": [
+        "high_value",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000107",
+    "created_at": "2025-12-05T01:16:00Z",
+    "payer": {
+      "account_id": "A00063",
+      "customer_id": "C0030"
+    },
+    "payee": {
+      "name": "Rent",
+      "account_ref": "EXT186558"
+    },
+    "payment": {
+      "amount": 137111.65,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 5
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": false,
+      "labels": [
+        "recurring",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000108",
+    "created_at": "2025-01-14T03:43:00Z",
+    "payer": {
+      "account_id": "A00078",
+      "customer_id": "C0007"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT408433"
+    },
+    "payment": {
+      "amount": 31046.6,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 0
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": true,
+      "labels": [
+        "high_value",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000109",
+    "created_at": "2025-11-17T21:03:00Z",
+    "payer": {
+      "account_id": "A00046",
+      "customer_id": "C0012"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT849115"
+    },
+    "payment": {
+      "amount": 8620.87,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 5
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": true,
+      "labels": [
+        "",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000110",
+    "created_at": "2025-08-13T12:21:00Z",
+    "payer": {
+      "account_id": "A00057",
+      "customer_id": "C0004"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT104892"
+    },
+    "payment": {
+      "amount": 12175.69,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 0
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000111",
+    "created_at": "2025-01-12T16:17:00Z",
+    "payer": {
+      "account_id": "A00054",
+      "customer_id": "C0002"
+    },
+    "payee": {
+      "name": "Rent",
+      "account_ref": "EXT453492"
+    },
+    "payment": {
+      "amount": 205133.43,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 0
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000112",
+    "created_at": "2025-10-30T16:32:00Z",
+    "payer": {
+      "account_id": "A00066",
+      "customer_id": "C0007"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT438354"
+    },
+    "payment": {
+      "amount": 140517.91,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 15
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": false,
+      "labels": [
+        "",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000113",
+    "created_at": "2025-06-19T05:37:00Z",
+    "payer": {
+      "account_id": "A00028",
+      "customer_id": "C0007"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT439075"
+    },
+    "payment": {
+      "amount": 43413.65,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 2.5
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": true,
+      "labels": [
+        "",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000114",
+    "created_at": "2025-02-18T01:43:00Z",
+    "payer": {
+      "account_id": "A00085",
+      "customer_id": "C0053"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT781516"
+    },
+    "payment": {
+      "amount": 155981.11,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 0
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": false,
+      "labels": [
+        "",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000115",
+    "created_at": "2025-05-05T20:27:00Z",
+    "payer": {
+      "account_id": "A00033",
+      "customer_id": "C0007"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT440110"
+    },
+    "payment": {
+      "amount": 245354.16,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 0
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": false,
+      "labels": [
+        "",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000116",
+    "created_at": "2025-09-02T00:23:00Z",
+    "payer": {
+      "account_id": "A00003",
+      "customer_id": "C0039"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT570717"
+    },
+    "payment": {
+      "amount": 95599.03,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 15
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": true,
+      "labels": [
+        "utility",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000117",
+    "created_at": "2025-06-22T03:19:00Z",
+    "payer": {
+      "account_id": "A00055",
+      "customer_id": "C0049"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT749871"
+    },
+    "payment": {
+      "amount": 19856.62,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 2.5
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000118",
+    "created_at": "2025-05-29T19:53:00Z",
+    "payer": {
+      "account_id": "A00083",
+      "customer_id": "C0003"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT860541"
+    },
+    "payment": {
+      "amount": 149522.82,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 2.5
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": false,
+      "labels": [
+        "utility",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000119",
+    "created_at": "2025-10-30T02:47:00Z",
+    "payer": {
+      "account_id": "A00083",
+      "customer_id": "C0053"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT887009"
+    },
+    "payment": {
+      "amount": 5933.1,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 2.5
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000120",
+    "created_at": "2025-06-11T23:29:00Z",
+    "payer": {
+      "account_id": "A00078",
+      "customer_id": "C0056"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT646802"
+    },
+    "payment": {
+      "amount": 80416.03,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 0
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000121",
+    "created_at": "2025-04-14T01:27:00Z",
+    "payer": {
+      "account_id": "A00027",
+      "customer_id": "C0009"
+    },
+    "payee": {
+      "name": "Rent",
+      "account_ref": "EXT282112"
+    },
+    "payment": {
+      "amount": 148161.74,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 0
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": false,
+      "labels": [
+        "high_value",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000122",
+    "created_at": "2025-05-24T20:11:00Z",
+    "payer": {
+      "account_id": "A00032",
+      "customer_id": "C0028"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT735281"
+    },
+    "payment": {
+      "amount": 62249.87,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 15
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": true,
+      "labels": [
+        "high_value",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000123",
+    "created_at": "2025-02-28T06:22:00Z",
+    "payer": {
+      "account_id": "A00047",
+      "customer_id": "C0026"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT275915"
+    },
+    "payment": {
+      "amount": 117683.66,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 15
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": false,
+      "labels": [
+        "utility",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000124",
+    "created_at": "2025-11-08T05:18:00Z",
+    "payer": {
+      "account_id": "A00011",
+      "customer_id": "C0049"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT724094"
+    },
+    "payment": {
+      "amount": 134304.05,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 2.5
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": false,
+      "labels": [
+        "",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000125",
+    "created_at": "2025-10-01T04:10:00Z",
+    "payer": {
+      "account_id": "A00072",
+      "customer_id": "C0039"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT175434"
+    },
+    "payment": {
+      "amount": 83315.2,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 0
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": true,
+      "labels": [
+        "utility",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000126",
+    "created_at": "2025-09-30T12:37:00Z",
+    "payer": {
+      "account_id": "A00063",
+      "customer_id": "C0026"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT513820"
+    },
+    "payment": {
+      "amount": 242623.45,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 5
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": true,
+      "labels": [
+        "",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000127",
+    "created_at": "2025-04-01T15:24:00Z",
+    "payer": {
+      "account_id": "A00050",
+      "customer_id": "C0060"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT270249"
+    },
+    "payment": {
+      "amount": 48565.11,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 2.5
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": false,
+      "labels": [
+        "high_value",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000128",
+    "created_at": "2025-02-12T00:27:00Z",
+    "payer": {
+      "account_id": "A00084",
+      "customer_id": "C0025"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT871399"
+    },
+    "payment": {
+      "amount": 61705.48,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 0
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000129",
+    "created_at": "2025-11-28T15:55:00Z",
+    "payer": {
+      "account_id": "A00088",
+      "customer_id": "C0010"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT359433"
+    },
+    "payment": {
+      "amount": 150541.31,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 0
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": false,
+      "labels": [
+        "",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000130",
+    "created_at": "2025-02-28T12:11:00Z",
+    "payer": {
+      "account_id": "A00067",
+      "customer_id": "C0059"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT543489"
+    },
+    "payment": {
+      "amount": 41464.24,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 2.5
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": false,
+      "labels": [
+        "high_value",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000131",
+    "created_at": "2025-10-27T17:23:00Z",
+    "payer": {
+      "account_id": "A00012",
+      "customer_id": "C0007"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT914419"
+    },
+    "payment": {
+      "amount": 199385.51,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 2.5
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": false,
+      "labels": [
+        "high_value",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000132",
+    "created_at": "2025-05-03T14:58:00Z",
+    "payer": {
+      "account_id": "A00063",
+      "customer_id": "C0001"
+    },
+    "payee": {
+      "name": "Rent",
+      "account_ref": "EXT173234"
+    },
+    "payment": {
+      "amount": 193438.17,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 15
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": false,
+      "labels": [
+        "",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000133",
+    "created_at": "2025-05-09T10:50:00Z",
+    "payer": {
+      "account_id": "A00048",
+      "customer_id": "C0012"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT307639"
+    },
+    "payment": {
+      "amount": 121622.95,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 5
+    },
+    "status": "PENDING",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": true,
+      "labels": [
+        "utility",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000134",
+    "created_at": "2025-05-14T01:25:00Z",
+    "payer": {
+      "account_id": "A00025",
+      "customer_id": "C0017"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT562139"
+    },
+    "payment": {
+      "amount": 156713.08,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 0
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": true,
+      "labels": [
+        "",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000135",
+    "created_at": "2025-07-21T12:46:00Z",
+    "payer": {
+      "account_id": "A00009",
+      "customer_id": "C0022"
+    },
+    "payee": {
+      "name": "Rent",
+      "account_ref": "EXT714094"
+    },
+    "payment": {
+      "amount": 58702.68,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 0
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": false,
+      "labels": [
+        "utility",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000136",
+    "created_at": "2025-01-31T11:32:00Z",
+    "payer": {
+      "account_id": "A00013",
+      "customer_id": "C0014"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT930248"
+    },
+    "payment": {
+      "amount": 1825.42,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 5
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": false,
+      "labels": [
+        "high_value",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000137",
+    "created_at": "2025-09-07T19:42:00Z",
+    "payer": {
+      "account_id": "A00041",
+      "customer_id": "C0053"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT478756"
+    },
+    "payment": {
+      "amount": 166272.92,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 15
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": false,
+      "labels": [
+        "utility",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000138",
+    "created_at": "2025-11-29T17:14:00Z",
+    "payer": {
+      "account_id": "A00090",
+      "customer_id": "C0026"
+    },
+    "payee": {
+      "name": "Electricity Board",
+      "account_ref": "EXT126927"
+    },
+    "payment": {
+      "amount": 150481.28,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 0
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": false,
+      "labels": [
+        "",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000139",
+    "created_at": "2025-05-17T20:24:00Z",
+    "payer": {
+      "account_id": "A00001",
+      "customer_id": "C0041"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT117438"
+    },
+    "payment": {
+      "amount": 158447.99,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 2.5
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": false,
+      "labels": [
+        "",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000140",
+    "created_at": "2025-03-01T06:01:00Z",
+    "payer": {
+      "account_id": "A00045",
+      "customer_id": "C0028"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT790318"
+    },
+    "payment": {
+      "amount": 214276.43,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 5
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000141",
+    "created_at": "2025-01-24T02:47:00Z",
+    "payer": {
+      "account_id": "A00017",
+      "customer_id": "C0032"
+    },
+    "payee": {
+      "name": "Rent",
+      "account_ref": "EXT415986"
+    },
+    "payment": {
+      "amount": 208090.2,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 0
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": false,
+      "labels": [
+        "recurring",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000142",
+    "created_at": "2025-06-04T02:41:00Z",
+    "payer": {
+      "account_id": "A00022",
+      "customer_id": "C0049"
+    },
+    "payee": {
+      "name": "Rent",
+      "account_ref": "EXT210592"
+    },
+    "payment": {
+      "amount": 108729.0,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 0
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": false,
+      "labels": [
+        "recurring",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000143",
+    "created_at": "2025-07-07T14:23:00Z",
+    "payer": {
+      "account_id": "A00086",
+      "customer_id": "C0031"
+    },
+    "payee": {
+      "name": "Rent",
+      "account_ref": "EXT797802"
+    },
+    "payment": {
+      "amount": 33947.75,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 0
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": true,
+      "labels": [
+        "high_value",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000144",
+    "created_at": "2025-10-05T21:49:00Z",
+    "payer": {
+      "account_id": "A00084",
+      "customer_id": "C0042"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT997728"
+    },
+    "payment": {
+      "amount": 109246.19,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 0
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": false,
+      "labels": [
+        "utility",
+        ""
+      ]
+    }
+  },
+  {
+    "payment_id": "P000145",
+    "created_at": "2025-03-06T21:49:00Z",
+    "payer": {
+      "account_id": "A00044",
+      "customer_id": "C0048"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT297296"
+    },
+    "payment": {
+      "amount": 186156.99,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 15
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": false,
+      "labels": [
+        "",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000146",
+    "created_at": "2025-01-02T05:20:00Z",
+    "payer": {
+      "account_id": "A00040",
+      "customer_id": "C0004"
+    },
+    "payee": {
+      "name": "Loan Servicing",
+      "account_ref": "EXT661620"
+    },
+    "payment": {
+      "amount": 47472.52,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 5
+    },
+    "status": "FAILED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": true,
+      "labels": [
+        "recurring",
+        "utility"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000147",
+    "created_at": "2025-10-15T20:35:00Z",
+    "payer": {
+      "account_id": "A00002",
+      "customer_id": "C0035"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT431272"
+    },
+    "payment": {
+      "amount": 36183.75,
+      "currency": "INR",
+      "method": "IMPS",
+      "fee": 0
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": false,
+      "labels": [
+        "recurring",
+        "high_value"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000148",
+    "created_at": "2025-07-26T08:38:00Z",
+    "payer": {
+      "account_id": "A00019",
+      "customer_id": "C0048"
+    },
+    "payee": {
+      "name": "Rent",
+      "account_ref": "EXT727971"
+    },
+    "payment": {
+      "amount": 80041.64,
+      "currency": "INR",
+      "method": "UPI",
+      "fee": 2.5
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "bank_operator",
+      "is_international": true,
+      "labels": [
+        "",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000149",
+    "created_at": "2025-10-02T07:27:00Z",
+    "payer": {
+      "account_id": "A00008",
+      "customer_id": "C0052"
+    },
+    "payee": {
+      "name": "Retailer",
+      "account_ref": "EXT260119"
+    },
+    "payment": {
+      "amount": 206972.89,
+      "currency": "INR",
+      "method": "NEFT",
+      "fee": 0
+    },
+    "status": "SETTLED",
+    "metadata": {
+      "initiated_by": "customer",
+      "is_international": false,
+      "labels": [
+        "",
+        "recurring"
+      ]
+    }
+  },
+  {
+    "payment_id": "P000150",
+    "created_at": "2025-04-26T22:06:00Z",
+    "payer": {
+      "account_id": "A00003",
+      "customer_id": "C0036"
+    },
+    "payee": {
+      "name": "Person to Person",
+      "account_ref": "EXT453800"
+    },
+    "payment": {
+      "amount": 105615.14,
+      "currency": "INR",
+      "method": "CARD",
+      "fee": 2.5
+    },
+    "status": "REVERSED",
+    "metadata": {
+      "initiated_by": "standing_instruction",
+      "is_international": true,
+      "labels": [
+        "high_value",
+        "recurring"
+      ]
+    }
+  }
+]

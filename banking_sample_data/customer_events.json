@@ -1,0 +1,3059 @@
+[
+  {
+    "event_id": "E000001",
+    "event_timestamp": "2025-02-14T18:28:00Z",
+    "customer_id": "C0006",
+    "event_type": "payment_initiated",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "5.1.0"
+    },
+    "device": {
+      "device_id": "D0010",
+      "device_type": "iOS",
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 2177,
+      "risk_score": 0.292,
+      "tags": [
+        "",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000002",
+    "event_timestamp": "2025-05-30T18:11:00Z",
+    "customer_id": "C0044",
+    "event_type": "beneficiary_added",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0028",
+      "device_type": "Web",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 2387,
+      "risk_score": 0.008,
+      "tags": [
+        "",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000003",
+    "event_timestamp": "2025-08-03T05:14:00Z",
+    "customer_id": "C9999",
+    "event_type": "beneficiary_added",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "5.1.0"
+    },
+    "device": {
+      "device_id": "D0001",
+      "device_type": "Web",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 3528,
+      "risk_score": 0.282,
+      "tags": [
+        "new_device",
+        "vpn"
+      ]
+    },
+    "related_accounts": [
+      "A00090"
+    ]
+  },
+  {
+    "event_id": "E000004",
+    "event_timestamp": "2025-10-15T02:20:00Z",
+    "customer_id": "C0041",
+    "event_type": "beneficiary_added",
+    "source": {
+      "system": "branch_portal",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0026",
+      "device_type": null,
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 2233,
+      "risk_score": 0.211,
+      "tags": [
+        "vpn",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000005",
+    "event_timestamp": "2025-05-18T01:30:00Z",
+    "customer_id": "C0036",
+    "event_type": "password_reset",
+    "source": {
+      "system": "internet_banking",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0010",
+      "device_type": "Web",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 551,
+      "risk_score": 0.012,
+      "tags": [
+        "new_device",
+        "vpn"
+      ]
+    },
+    "related_accounts": [
+      "A00063",
+      "A00085"
+    ]
+  },
+  {
+    "event_id": "E000006",
+    "event_timestamp": "invalid",
+    "customer_id": "C0009",
+    "event_type": "login",
+    "source": {
+      "system": "mobile_app",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0030",
+      "device_type": null,
+      "ip_country": "GB"
+    },
+    "attributes": {
+      "session_duration_sec": 737,
+      "risk_score": 0.454,
+      "tags": [
+        "repeat_login",
+        ""
+      ]
+    },
+    "related_accounts": [
+      "A00046"
+    ]
+  },
+  {
+    "event_id": "E000007",
+    "event_timestamp": "2025-06-14T09:06:00Z",
+    "customer_id": "C0012",
+    "event_type": "password_reset",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "5.1.0"
+    },
+    "device": {
+      "device_id": "D0032",
+      "device_type": "iOS",
+      "ip_country": "GB"
+    },
+    "attributes": {
+      "session_duration_sec": 1103,
+      "risk_score": 0.411,
+      "tags": [
+        "",
+        "海外"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000008",
+    "event_timestamp": "2025-01-28T13:44:00Z",
+    "customer_id": "C0037",
+    "event_type": "password_reset",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0008",
+      "device_type": null,
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 582,
+      "risk_score": 0.73,
+      "tags": [
+        "",
+        "海外"
+      ]
+    },
+    "related_accounts": [
+      "A00067"
+    ]
+  },
+  {
+    "event_id": "E000009",
+    "event_timestamp": "2025-02-26T23:14:00Z",
+    "customer_id": "C0034",
+    "event_type": "profile_update",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0031",
+      "device_type": "Android",
+      "ip_country": "GB"
+    },
+    "attributes": {
+      "session_duration_sec": 3270,
+      "risk_score": 1.7,
+      "tags": [
+        "",
+        "new_device"
+      ]
+    },
+    "related_accounts": [
+      "A00069"
+    ]
+  },
+  {
+    "event_id": "E000010",
+    "event_timestamp": "2025-01-08T20:27:00Z",
+    "customer_id": "C0031",
+    "event_type": "password_reset",
+    "source": {
+      "system": "branch_portal",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0022",
+      "device_type": null,
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 3270,
+      "risk_score": 0.295,
+      "tags": [
+        "vpn",
+        "new_device"
+      ]
+    },
+    "related_accounts": [
+      "A00077",
+      "A00039"
+    ]
+  },
+  {
+    "event_id": "E000011",
+    "event_timestamp": "2025-07-09T15:34:00Z",
+    "customer_id": "C0004",
+    "event_type": "password_reset",
+    "source": null,
+    "device": {
+      "device_id": "D0004",
+      "device_type": "Web",
+      "ip_country": "GB"
+    },
+    "attributes": {
+      "session_duration_sec": 112,
+      "risk_score": 0.287,
+      "tags": [
+        "new_device",
+        "vpn"
+      ]
+    },
+    "related_accounts": [
+      "A00010",
+      "A00036"
+    ]
+  },
+  {
+    "event_id": "E000012",
+    "event_timestamp": "2025-07-03T12:54:00Z",
+    "customer_id": "C0009",
+    "event_type": "profile_update",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0017",
+      "device_type": "Android",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 2474,
+      "risk_score": 0.175,
+      "tags": [
+        "",
+        "vpn"
+      ]
+    },
+    "related_accounts": [
+      "A00058",
+      "A00048"
+    ]
+  },
+  {
+    "event_id": "E000013",
+    "event_timestamp": "2025-05-08T17:19:00Z",
+    "customer_id": "C0017",
+    "event_type": "payment_initiated",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0034",
+      "device_type": "Android",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 346,
+      "risk_score": 0.967,
+      "tags": [
+        "",
+        "vpn"
+      ]
+    },
+    "related_accounts": [
+      "A00053"
+    ]
+  },
+  {
+    "event_id": "E000014",
+    "event_timestamp": "2025-10-07T00:19:00Z",
+    "customer_id": "C0016",
+    "event_type": "password_reset",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0014",
+      "device_type": "Web",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 2631,
+      "risk_score": 0.264,
+      "tags": [
+        "new_device",
+        ""
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000015",
+    "event_timestamp": "2025-12-04T21:14:00Z",
+    "customer_id": "C0026",
+    "event_type": "password_reset",
+    "source": {
+      "system": "internet_banking",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0015",
+      "device_type": null,
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 1944,
+      "risk_score": 0.263,
+      "tags": [
+        "",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000016",
+    "event_timestamp": "2025-07-30T07:00:00Z",
+    "customer_id": "C0060",
+    "event_type": "password_reset",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0034",
+      "device_type": "Android",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 2177,
+      "risk_score": 0.637,
+      "tags": [
+        "repeat_login",
+        "海外"
+      ]
+    },
+    "related_accounts": null
+  },
+  {
+    "event_id": "E000017",
+    "event_timestamp": "2025-07-14T11:41:00Z",
+    "customer_id": "C0052",
+    "event_type": "login",
+    "source": {
+      "system": "internet_banking",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0030",
+      "device_type": "iOS",
+      "ip_country": "GB"
+    },
+    "attributes": {
+      "session_duration_sec": 3156,
+      "risk_score": 0.195,
+      "tags": [
+        "海外",
+        "vpn"
+      ]
+    },
+    "related_accounts": [
+      "A00071"
+    ]
+  },
+  {
+    "event_id": "E000018",
+    "event_timestamp": "2025-01-08T16:51:00Z",
+    "customer_id": "C0044",
+    "event_type": "login",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "5.1.0"
+    },
+    "device": {
+      "device_id": "D0027",
+      "device_type": "Android",
+      "ip_country": "GB"
+    },
+    "attributes": {
+      "session_duration_sec": 426,
+      "risk_score": 0.685,
+      "tags": [
+        "海外",
+        "vpn"
+      ]
+    },
+    "related_accounts": [
+      "A00037",
+      "A00033"
+    ]
+  },
+  {
+    "event_id": "E000019",
+    "event_timestamp": "2025-05-21T14:18:00Z",
+    "customer_id": "C0003",
+    "event_type": "login",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "5.1.0"
+    },
+    "device": {
+      "device_id": "D0004",
+      "device_type": "iOS",
+      "ip_country": "GB"
+    },
+    "attributes": {
+      "session_duration_sec": 2614,
+      "risk_score": 0.122,
+      "tags": [
+        "new_device",
+        ""
+      ]
+    },
+    "related_accounts": [
+      "A00017",
+      "A00049"
+    ]
+  },
+  {
+    "event_id": "E000020",
+    "event_timestamp": "2025-05-15T13:03:00Z",
+    "customer_id": "C0058",
+    "event_type": "login",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0017",
+      "device_type": "Web",
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 2706,
+      "risk_score": 0.936,
+      "tags": [
+        "repeat_login",
+        "海外"
+      ]
+    },
+    "related_accounts": [
+      "A00089"
+    ]
+  },
+  {
+    "event_id": "E000021",
+    "event_timestamp": "2025-08-24T11:53:00Z",
+    "customer_id": "C0017",
+    "event_type": "LOGIN ",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0004",
+      "device_type": null,
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 1363,
+      "risk_score": 0.996,
+      "tags": [
+        "海外",
+        ""
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000022",
+    "event_timestamp": "2025-11-17T19:36:00Z",
+    "customer_id": "C0005",
+    "event_type": "password_reset",
+    "source": {
+      "system": "mobile_app",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0012",
+      "device_type": null,
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 590,
+      "risk_score": 0.541,
+      "tags": [
+        "repeat_login",
+        "vpn"
+      ]
+    },
+    "related_accounts": [
+      "A00083",
+      "A00014"
+    ]
+  },
+  {
+    "event_id": "E000023",
+    "event_timestamp": "2025-11-18T13:11:00Z",
+    "customer_id": "C0046",
+    "event_type": "beneficiary_added",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "5.1.0"
+    },
+    "device": {
+      "device_id": "D0005",
+      "device_type": "Android",
+      "ip_country": "GB"
+    },
+    "attributes": {
+      "session_duration_sec": 2981,
+      "risk_score": 0.251,
+      "tags": [
+        "repeat_login",
+        "new_device"
+      ]
+    },
+    "related_accounts": [
+      "A00020"
+    ]
+  },
+  {
+    "event_id": "E000024",
+    "event_timestamp": "2025-01-01T15:09:00Z",
+    "customer_id": "C0060",
+    "event_type": "login",
+    "source": {
+      "system": "branch_portal",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0018",
+      "device_type": "iOS",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 1603,
+      "risk_score": 0.575,
+      "tags": [
+        "",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": [
+      "A00056"
+    ]
+  },
+  {
+    "event_id": "E000025",
+    "event_timestamp": "2025-10-22T02:53:00Z",
+    "customer_id": "C0055",
+    "event_type": "login",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0001",
+      "device_type": null,
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 497,
+      "risk_score": 0.567,
+      "tags": [
+        "海外",
+        ""
+      ]
+    },
+    "related_accounts": [
+      "A00039",
+      "A00052"
+    ]
+  },
+  {
+    "event_id": "E000025",
+    "event_timestamp": "2025-02-10T04:35:00Z",
+    "customer_id": "C0041",
+    "event_type": "login",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0006",
+      "device_type": null,
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 2654,
+      "risk_score": 0.203,
+      "tags": [
+        "",
+        "new_device"
+      ]
+    },
+    "related_accounts": [
+      "A00085"
+    ]
+  },
+  {
+    "event_id": "E000027",
+    "event_timestamp": "2025-05-20T02:01:00Z",
+    "customer_id": "C0020",
+    "event_type": "password_reset",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0032",
+      "device_type": "Android",
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 3012,
+      "risk_score": 0.189,
+      "tags": [
+        "new_device",
+        "vpn"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000028",
+    "event_timestamp": "2025-06-23T15:49:00Z",
+    "customer_id": "C0032",
+    "event_type": "password_reset",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0032",
+      "device_type": null,
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 152,
+      "risk_score": 0.339,
+      "tags": [
+        "海外",
+        "new_device"
+      ]
+    },
+    "related_accounts": [
+      "A00016"
+    ]
+  },
+  {
+    "event_id": "E000029",
+    "event_timestamp": "2025-06-04T03:20:00Z",
+    "customer_id": "C0052",
+    "event_type": "profile_update",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0015",
+      "device_type": "Android",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 3013,
+      "risk_score": 0.142,
+      "tags": [
+        "new_device",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": [
+      "A00006",
+      "A00032"
+    ]
+  },
+  {
+    "event_id": "E000030",
+    "event_timestamp": "2025-04-06T01:18:00Z",
+    "customer_id": "C0001",
+    "event_type": "payment_initiated",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "5.1.0"
+    },
+    "device": {
+      "device_id": "D0020",
+      "device_type": "Android",
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 2504,
+      "risk_score": 0.171,
+      "tags": [
+        "",
+        "new_device"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000031",
+    "event_timestamp": "2025-03-25T03:26:00Z",
+    "customer_id": "C0032",
+    "event_type": "profile_update",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0005",
+      "device_type": "iOS",
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 1382,
+      "risk_score": 0.812,
+      "tags": [
+        "repeat_login",
+        "海外"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000032",
+    "event_timestamp": "2025-04-11T00:00:00Z",
+    "customer_id": "C0021",
+    "event_type": "payment_initiated",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0022",
+      "device_type": "Android",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 1122,
+      "risk_score": 0.141,
+      "tags": [
+        "repeat_login",
+        "vpn"
+      ]
+    },
+    "related_accounts": [
+      "A00048",
+      "A00071"
+    ]
+  },
+  {
+    "event_id": "E000033",
+    "event_timestamp": "2025-05-01T03:41:00Z",
+    "customer_id": "C0029",
+    "event_type": "payment_initiated",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "5.1.0"
+    },
+    "device": {
+      "device_id": "D0009",
+      "device_type": "Android",
+      "ip_country": "GB"
+    },
+    "attributes": {
+      "session_duration_sec": 1541,
+      "risk_score": 0.778,
+      "tags": [
+        "new_device",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000034",
+    "event_timestamp": "2025-01-05T14:58:00Z",
+    "customer_id": "C0001",
+    "event_type": "payment_initiated",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0027",
+      "device_type": null,
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 845,
+      "risk_score": 0.143,
+      "tags": [
+        "海外",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": [
+      "A00031"
+    ]
+  },
+  {
+    "event_id": "E000035",
+    "event_timestamp": "2025-05-08T02:27:00Z",
+    "customer_id": "C0040",
+    "event_type": "login",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0032",
+      "device_type": "Android",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 1425,
+      "risk_score": 0.419,
+      "tags": [
+        "",
+        "vpn"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000036",
+    "event_timestamp": "2025-03-27T13:35:00Z",
+    "customer_id": "C0034",
+    "event_type": "login",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0033",
+      "device_type": "iOS",
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 3156,
+      "risk_score": 0.626,
+      "tags": [
+        "vpn",
+        "海外"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000037",
+    "event_timestamp": "2025-05-22T01:29:00Z",
+    "customer_id": "C0008",
+    "event_type": "payment_initiated",
+    "source": {
+      "system": "branch_portal",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0032",
+      "device_type": "iOS",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 2745,
+      "risk_score": 0.923,
+      "tags": [
+        "new_device",
+        "海外"
+      ]
+    },
+    "related_accounts": [
+      "A00027"
+    ]
+  },
+  {
+    "event_id": "E000038",
+    "event_timestamp": "2025-11-13T12:26:00Z",
+    "customer_id": "C0017",
+    "event_type": "beneficiary_added",
+    "source": {
+      "system": "branch_portal",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0003",
+      "device_type": "Android",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 2202,
+      "risk_score": 0.176,
+      "tags": [
+        "new_device",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": [
+      "A00015",
+      "A00010"
+    ]
+  },
+  {
+    "event_id": "E000039",
+    "event_timestamp": "2025-06-21T08:09:00Z",
+    "customer_id": "C0047",
+    "event_type": "password_reset",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0027",
+      "device_type": "iOS",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 943,
+      "risk_score": 0.779,
+      "tags": [
+        "海外",
+        "vpn"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000040",
+    "event_timestamp": "2025-06-22T15:56:00Z",
+    "customer_id": "C0048",
+    "event_type": "password_reset",
+    "source": {
+      "system": "mobile_app",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0015",
+      "device_type": "Android",
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 2397,
+      "risk_score": 0.484,
+      "tags": [
+        "repeat_login",
+        "vpn"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000041",
+    "event_timestamp": "2025-11-28T07:32:00Z",
+    "customer_id": "C0012",
+    "event_type": "password_reset",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0030",
+      "device_type": "iOS",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 1105,
+      "risk_score": 0.202,
+      "tags": [
+        "vpn",
+        "new_device"
+      ]
+    },
+    "related_accounts": [
+      "A00073",
+      "A00008"
+    ]
+  },
+  {
+    "event_id": "E000042",
+    "event_timestamp": "2025-07-24T07:54:00Z",
+    "customer_id": "C0009",
+    "event_type": "login",
+    "source": {
+      "system": "internet_banking",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0027",
+      "device_type": "iOS",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 901,
+      "risk_score": 0.886,
+      "tags": [
+        "",
+        "vpn"
+      ]
+    },
+    "related_accounts": [
+      "A00079",
+      "A00022"
+    ]
+  },
+  {
+    "event_id": "E000043",
+    "event_timestamp": "2025-06-17T06:20:00Z",
+    "customer_id": "C0006",
+    "event_type": "password_reset",
+    "source": {
+      "system": "branch_portal",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0014",
+      "device_type": null,
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 1144,
+      "risk_score": 0.015,
+      "tags": [
+        "repeat_login",
+        "vpn"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000044",
+    "event_timestamp": "2025-08-27T07:54:00Z",
+    "customer_id": "C0028",
+    "event_type": "profile_update",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0001",
+      "device_type": null,
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 165,
+      "risk_score": 0.991,
+      "tags": [
+        "",
+        "new_device"
+      ]
+    },
+    "related_accounts": [
+      "A00068"
+    ]
+  },
+  {
+    "event_id": "E000045",
+    "event_timestamp": "2025-10-15T03:14:00Z",
+    "customer_id": "C0031",
+    "event_type": "login",
+    "source": {
+      "system": "internet_banking",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0016",
+      "device_type": "Android",
+      "ip_country": "GB"
+    },
+    "attributes": {
+      "session_duration_sec": 3085,
+      "risk_score": 0.012,
+      "tags": [
+        "repeat_login",
+        "vpn"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000046",
+    "event_timestamp": "2025-09-18T23:35:00Z",
+    "customer_id": "C0019",
+    "event_type": "payment_initiated",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "5.1.0"
+    },
+    "device": {
+      "device_id": "D0002",
+      "device_type": null,
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 663,
+      "risk_score": 0.703,
+      "tags": [
+        "",
+        "new_device"
+      ]
+    },
+    "related_accounts": [
+      "A00060"
+    ]
+  },
+  {
+    "event_id": "E000047",
+    "event_timestamp": "2025-04-11T22:37:00Z",
+    "customer_id": "C0056",
+    "event_type": "password_reset",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0030",
+      "device_type": "Android",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 1577,
+      "risk_score": 0.893,
+      "tags": [
+        "海外",
+        "new_device"
+      ]
+    },
+    "related_accounts": [
+      "A00055"
+    ]
+  },
+  {
+    "event_id": "E000048",
+    "event_timestamp": "2025-07-16T10:54:00Z",
+    "customer_id": "C0045",
+    "event_type": "profile_update",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0006",
+      "device_type": "Web",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 2109,
+      "risk_score": 0.945,
+      "tags": [
+        "海外",
+        "new_device"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000049",
+    "event_timestamp": "2025-10-06T20:37:00Z",
+    "customer_id": "C0024",
+    "event_type": "password_reset",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "5.1.0"
+    },
+    "device": {
+      "device_id": "D0024",
+      "device_type": "Web",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 2655,
+      "risk_score": 0.559,
+      "tags": [
+        "new_device",
+        "vpn"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000050",
+    "event_timestamp": "2025-09-01T21:19:00Z",
+    "customer_id": "C0016",
+    "event_type": "profile_update",
+    "source": {
+      "system": "mobile_app",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0014",
+      "device_type": "iOS",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 1445,
+      "risk_score": 0.898,
+      "tags": [
+        "",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": [
+      "A00007"
+    ]
+  },
+  {
+    "event_id": "E000051",
+    "event_timestamp": "2025-02-16T03:27:00Z",
+    "customer_id": "C0024",
+    "event_type": "beneficiary_added",
+    "source": {
+      "system": "internet_banking",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0033",
+      "device_type": "Android",
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 2908,
+      "risk_score": 0.532,
+      "tags": [
+        "",
+        "海外"
+      ]
+    },
+    "related_accounts": [
+      "A00080"
+    ]
+  },
+  {
+    "event_id": "E000052",
+    "event_timestamp": "2025-09-26T01:48:00Z",
+    "customer_id": "C0052",
+    "event_type": "login",
+    "source": {
+      "system": "mobile_app",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0006",
+      "device_type": "Android",
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 733,
+      "risk_score": 0.288,
+      "tags": [
+        "new_device",
+        ""
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000053",
+    "event_timestamp": "2025-07-20T22:26:00Z",
+    "customer_id": "C0008",
+    "event_type": "payment_initiated",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0014",
+      "device_type": "Android",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 1707,
+      "risk_score": 0.97,
+      "tags": [
+        "",
+        "vpn"
+      ]
+    },
+    "related_accounts": [
+      "A00045"
+    ]
+  },
+  {
+    "event_id": "E000054",
+    "event_timestamp": "2025-11-02T22:18:00Z",
+    "customer_id": "C0029",
+    "event_type": "login",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0005",
+      "device_type": "Android",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 3420,
+      "risk_score": 0.947,
+      "tags": [
+        "海外",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": [
+      "A00044",
+      "A00084"
+    ]
+  },
+  {
+    "event_id": "E000055",
+    "event_timestamp": "2025-08-26T14:37:00Z",
+    "customer_id": "C0032",
+    "event_type": "profile_update",
+    "source": {
+      "system": "branch_portal",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0030",
+      "device_type": "Web",
+      "ip_country": "GB"
+    },
+    "attributes": {
+      "session_duration_sec": 541,
+      "risk_score": 0.898,
+      "tags": [
+        "海外",
+        "vpn"
+      ]
+    },
+    "related_accounts": [
+      "A00030"
+    ]
+  },
+  {
+    "event_id": "E000056",
+    "event_timestamp": "2025-12-19T14:45:00Z",
+    "customer_id": "C0024",
+    "event_type": "beneficiary_added",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0023",
+      "device_type": "Web",
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 682,
+      "risk_score": 0.619,
+      "tags": [
+        "vpn",
+        "海外"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000057",
+    "event_timestamp": "2025-05-08T16:37:00Z",
+    "customer_id": "C0054",
+    "event_type": "payment_initiated",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0008",
+      "device_type": "Android",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 2354,
+      "risk_score": 0.126,
+      "tags": [
+        "海外",
+        ""
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000058",
+    "event_timestamp": "2025-05-30T09:20:00Z",
+    "customer_id": "C0036",
+    "event_type": "login",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0023",
+      "device_type": "iOS",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 1837,
+      "risk_score": 0.54,
+      "tags": [
+        "vpn",
+        "海外"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000059",
+    "event_timestamp": "2025-01-19T03:35:00Z",
+    "customer_id": "C0026",
+    "event_type": "password_reset",
+    "source": {
+      "system": "mobile_app",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0021",
+      "device_type": "iOS",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 3025,
+      "risk_score": 0.546,
+      "tags": [
+        "",
+        "海外"
+      ]
+    },
+    "related_accounts": [
+      "A00038",
+      "A00061"
+    ]
+  },
+  {
+    "event_id": "E000060",
+    "event_timestamp": "2025-07-31T01:05:00Z",
+    "customer_id": "C0049",
+    "event_type": "profile_update",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0029",
+      "device_type": "Web",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 2997,
+      "risk_score": 0.479,
+      "tags": [
+        "new_device",
+        "vpn"
+      ]
+    },
+    "related_accounts": [
+      "A00071",
+      "A00015"
+    ]
+  },
+  {
+    "event_id": "E000061",
+    "event_timestamp": "2025-08-13T08:07:00Z",
+    "customer_id": "C0002",
+    "event_type": "password_reset",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0029",
+      "device_type": "Web",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 1337,
+      "risk_score": 0.055,
+      "tags": [
+        "vpn",
+        ""
+      ]
+    },
+    "related_accounts": [
+      "A00026"
+    ]
+  },
+  {
+    "event_id": "E000062",
+    "event_timestamp": "2025-01-17T10:03:00Z",
+    "customer_id": "C0006",
+    "event_type": "profile_update",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "5.1.0"
+    },
+    "device": {
+      "device_id": "D0033",
+      "device_type": null,
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 2009,
+      "risk_score": 0.318,
+      "tags": [
+        "",
+        "new_device"
+      ]
+    },
+    "related_accounts": [
+      "A00047",
+      "A00051"
+    ]
+  },
+  {
+    "event_id": "E000063",
+    "event_timestamp": "2025-04-18T17:32:00Z",
+    "customer_id": "C0046",
+    "event_type": "password_reset",
+    "source": {
+      "system": "internet_banking",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0024",
+      "device_type": "Android",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 1413,
+      "risk_score": 0.351,
+      "tags": [
+        "repeat_login",
+        "new_device"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000064",
+    "event_timestamp": "2025-11-20T11:18:00Z",
+    "customer_id": "C0048",
+    "event_type": "password_reset",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0011",
+      "device_type": null,
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 572,
+      "risk_score": 0.836,
+      "tags": [
+        "",
+        "new_device"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000065",
+    "event_timestamp": "2025-06-01T07:17:00Z",
+    "customer_id": "C0020",
+    "event_type": "password_reset",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0005",
+      "device_type": null,
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 28,
+      "risk_score": 0.409,
+      "tags": [
+        "海外",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000066",
+    "event_timestamp": "2025-12-03T12:07:00Z",
+    "customer_id": "C0046",
+    "event_type": "profile_update",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0012",
+      "device_type": null,
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 2269,
+      "risk_score": 0.491,
+      "tags": [
+        "海外",
+        ""
+      ]
+    },
+    "related_accounts": [
+      "A00072"
+    ]
+  },
+  {
+    "event_id": "E000067",
+    "event_timestamp": "2025-12-04T11:24:00Z",
+    "customer_id": "C0015",
+    "event_type": "login",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0017",
+      "device_type": "Web",
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 509,
+      "risk_score": 0.654,
+      "tags": [
+        "海外",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000068",
+    "event_timestamp": "2025-12-25T04:20:00Z",
+    "customer_id": "C0059",
+    "event_type": "payment_initiated",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "5.1.0"
+    },
+    "device": {
+      "device_id": "D0018",
+      "device_type": null,
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 2454,
+      "risk_score": 0.746,
+      "tags": [
+        "",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": [
+      "A00056",
+      "A00034"
+    ]
+  },
+  {
+    "event_id": "E000069",
+    "event_timestamp": "2025-12-13T15:24:00Z",
+    "customer_id": "C0045",
+    "event_type": "login",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "5.1.0"
+    },
+    "device": {
+      "device_id": "D0017",
+      "device_type": "iOS",
+      "ip_country": "GB"
+    },
+    "attributes": {
+      "session_duration_sec": 240,
+      "risk_score": 0.146,
+      "tags": [
+        "repeat_login",
+        "vpn"
+      ]
+    },
+    "related_accounts": [
+      "A00021"
+    ]
+  },
+  {
+    "event_id": "E000070",
+    "event_timestamp": "2025-02-08T12:17:00Z",
+    "customer_id": "C0018",
+    "event_type": "beneficiary_added",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0004",
+      "device_type": "Web",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 2170,
+      "risk_score": 0.639,
+      "tags": [
+        "new_device",
+        "vpn"
+      ]
+    },
+    "related_accounts": [
+      "A00024",
+      "A00013"
+    ]
+  },
+  {
+    "event_id": "E000071",
+    "event_timestamp": "2025-05-02T16:54:00Z",
+    "customer_id": "C0035",
+    "event_type": "beneficiary_added",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0018",
+      "device_type": "Web",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 2189,
+      "risk_score": 0.58,
+      "tags": [
+        "vpn",
+        "new_device"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000072",
+    "event_timestamp": "2025-07-24T22:07:00Z",
+    "customer_id": "C0024",
+    "event_type": "password_reset",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0011",
+      "device_type": "Android",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 634,
+      "risk_score": 0.503,
+      "tags": [
+        "vpn",
+        "new_device"
+      ]
+    },
+    "related_accounts": [
+      "A00059"
+    ]
+  },
+  {
+    "event_id": "E000073",
+    "event_timestamp": "2025-02-25T15:11:00Z",
+    "customer_id": "C0008",
+    "event_type": "payment_initiated",
+    "source": {
+      "system": "mobile_app",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0023",
+      "device_type": "Web",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 570,
+      "risk_score": 0.817,
+      "tags": [
+        "",
+        "海外"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000074",
+    "event_timestamp": "2025-08-10T20:44:00Z",
+    "customer_id": "C0002",
+    "event_type": "login",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0010",
+      "device_type": "iOS",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 514,
+      "risk_score": 0.21,
+      "tags": [
+        "new_device",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": [
+      "A00015",
+      "A00010"
+    ]
+  },
+  {
+    "event_id": "E000075",
+    "event_timestamp": "2025-01-14T16:39:00Z",
+    "customer_id": "C0050",
+    "event_type": "password_reset",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "5.1.0"
+    },
+    "device": {
+      "device_id": "D0013",
+      "device_type": "Android",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 3249,
+      "risk_score": 0.66,
+      "tags": [
+        "",
+        "new_device"
+      ]
+    },
+    "related_accounts": [
+      "A00016"
+    ]
+  },
+  {
+    "event_id": "E000076",
+    "event_timestamp": "2025-07-04T05:42:00Z",
+    "customer_id": "C0003",
+    "event_type": "login",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "5.1.0"
+    },
+    "device": {
+      "device_id": "D0007",
+      "device_type": "Android",
+      "ip_country": "GB"
+    },
+    "attributes": {
+      "session_duration_sec": 842,
+      "risk_score": 0.588,
+      "tags": [
+        "vpn",
+        ""
+      ]
+    },
+    "related_accounts": [
+      "A00045",
+      "A00004"
+    ]
+  },
+  {
+    "event_id": "E000077",
+    "event_timestamp": "2025-03-08T02:29:00Z",
+    "customer_id": "C0010",
+    "event_type": "beneficiary_added",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0023",
+      "device_type": "iOS",
+      "ip_country": "GB"
+    },
+    "attributes": {
+      "session_duration_sec": 3199,
+      "risk_score": 0.729,
+      "tags": [
+        "vpn",
+        "new_device"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000078",
+    "event_timestamp": "2025-01-11T04:23:00Z",
+    "customer_id": "C0034",
+    "event_type": "payment_initiated",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0019",
+      "device_type": "iOS",
+      "ip_country": "GB"
+    },
+    "attributes": {
+      "session_duration_sec": 18,
+      "risk_score": 0.974,
+      "tags": [
+        "new_device",
+        "vpn"
+      ]
+    },
+    "related_accounts": [
+      "A00061",
+      "A00047"
+    ]
+  },
+  {
+    "event_id": "E000079",
+    "event_timestamp": "2025-05-15T19:18:00Z",
+    "customer_id": "C0029",
+    "event_type": "login",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0025",
+      "device_type": null,
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 2107,
+      "risk_score": 0.228,
+      "tags": [
+        "new_device",
+        "海外"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000080",
+    "event_timestamp": "2025-12-06T06:13:00Z",
+    "customer_id": "C0008",
+    "event_type": "profile_update",
+    "source": {
+      "system": "mobile_app",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0024",
+      "device_type": "Web",
+      "ip_country": "GB"
+    },
+    "attributes": {
+      "session_duration_sec": 2958,
+      "risk_score": 0.041,
+      "tags": [
+        "海外",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000081",
+    "event_timestamp": "2025-10-08T04:32:00Z",
+    "customer_id": "C0019",
+    "event_type": "password_reset",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0029",
+      "device_type": "iOS",
+      "ip_country": "GB"
+    },
+    "attributes": {
+      "session_duration_sec": 1669,
+      "risk_score": 0.291,
+      "tags": [
+        "repeat_login",
+        "vpn"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000082",
+    "event_timestamp": "2025-12-13T09:03:00Z",
+    "customer_id": "C0044",
+    "event_type": "beneficiary_added",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "5.1.0"
+    },
+    "device": {
+      "device_id": "D0032",
+      "device_type": "Android",
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 1795,
+      "risk_score": 0.523,
+      "tags": [
+        "new_device",
+        ""
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000083",
+    "event_timestamp": "2025-10-15T11:49:00Z",
+    "customer_id": "C0026",
+    "event_type": "profile_update",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0005",
+      "device_type": "Web",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 1388,
+      "risk_score": 0.2,
+      "tags": [
+        "repeat_login",
+        "new_device"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000084",
+    "event_timestamp": "2025-11-06T06:14:00Z",
+    "customer_id": "C0047",
+    "event_type": "password_reset",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0026",
+      "device_type": "Web",
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 2731,
+      "risk_score": 0.603,
+      "tags": [
+        "repeat_login",
+        ""
+      ]
+    },
+    "related_accounts": [
+      "A00036",
+      "A00019"
+    ]
+  },
+  {
+    "event_id": "E000085",
+    "event_timestamp": "2025-11-28T01:19:00Z",
+    "customer_id": "C0007",
+    "event_type": "login",
+    "source": {
+      "system": "internet_banking",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0032",
+      "device_type": "iOS",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 122,
+      "risk_score": 0.1,
+      "tags": [
+        "new_device",
+        ""
+      ]
+    },
+    "related_accounts": [
+      "A00087"
+    ]
+  },
+  {
+    "event_id": "E000086",
+    "event_timestamp": "2025-01-20T11:28:00Z",
+    "customer_id": "C0012",
+    "event_type": "password_reset",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0010",
+      "device_type": "Web",
+      "ip_country": "GB"
+    },
+    "attributes": {
+      "session_duration_sec": 2553,
+      "risk_score": 0.096,
+      "tags": [
+        "new_device",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": [
+      "A00026"
+    ]
+  },
+  {
+    "event_id": "E000087",
+    "event_timestamp": "2025-08-02T18:23:00Z",
+    "customer_id": "C0043",
+    "event_type": "password_reset",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0022",
+      "device_type": "Android",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 1763,
+      "risk_score": 0.88,
+      "tags": [
+        "new_device",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": [
+      "A00041"
+    ]
+  },
+  {
+    "event_id": "E000088",
+    "event_timestamp": "2025-10-02T00:57:00Z",
+    "customer_id": "C0029",
+    "event_type": "password_reset",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "5.1.0"
+    },
+    "device": {
+      "device_id": "D0012",
+      "device_type": "Web",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 2014,
+      "risk_score": 0.431,
+      "tags": [
+        "海外",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": [
+      "A00015"
+    ]
+  },
+  {
+    "event_id": "E000089",
+    "event_timestamp": "2025-12-24T05:02:00Z",
+    "customer_id": "C0043",
+    "event_type": "profile_update",
+    "source": {
+      "system": "branch_portal",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0031",
+      "device_type": "iOS",
+      "ip_country": "GB"
+    },
+    "attributes": {
+      "session_duration_sec": 229,
+      "risk_score": 0.391,
+      "tags": [
+        "repeat_login",
+        ""
+      ]
+    },
+    "related_accounts": [
+      "A00087",
+      "A00046"
+    ]
+  },
+  {
+    "event_id": "E000090",
+    "event_timestamp": "2025-07-27T02:54:00Z",
+    "customer_id": "C0021",
+    "event_type": "login",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "5.1.0"
+    },
+    "device": {
+      "device_id": "D0009",
+      "device_type": "Web",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 3316,
+      "risk_score": 0.742,
+      "tags": [
+        "new_device",
+        "海外"
+      ]
+    },
+    "related_accounts": [
+      "A00013"
+    ]
+  },
+  {
+    "event_id": "E000091",
+    "event_timestamp": "2025-11-08T18:25:00Z",
+    "customer_id": "C0023",
+    "event_type": "beneficiary_added",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0004",
+      "device_type": "iOS",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 962,
+      "risk_score": 0.648,
+      "tags": [
+        "",
+        "new_device"
+      ]
+    },
+    "related_accounts": [
+      "A00009",
+      "A00040"
+    ]
+  },
+  {
+    "event_id": "E000092",
+    "event_timestamp": "2025-03-25T08:31:00Z",
+    "customer_id": "C0022",
+    "event_type": "payment_initiated",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0003",
+      "device_type": null,
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 2327,
+      "risk_score": 0.515,
+      "tags": [
+        "repeat_login",
+        "海外"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000093",
+    "event_timestamp": "2025-12-09T00:36:00Z",
+    "customer_id": "C0038",
+    "event_type": "login",
+    "source": {
+      "system": "internet_banking",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0025",
+      "device_type": "Web",
+      "ip_country": "GB"
+    },
+    "attributes": {
+      "session_duration_sec": 401,
+      "risk_score": 0.808,
+      "tags": [
+        "new_device",
+        "vpn"
+      ]
+    },
+    "related_accounts": [
+      "A00064"
+    ]
+  },
+  {
+    "event_id": "E000094",
+    "event_timestamp": "2025-09-05T05:52:00Z",
+    "customer_id": "C0011",
+    "event_type": "profile_update",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0028",
+      "device_type": "iOS",
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 2603,
+      "risk_score": 0.847,
+      "tags": [
+        "new_device",
+        "vpn"
+      ]
+    },
+    "related_accounts": [
+      "A00034"
+    ]
+  },
+  {
+    "event_id": "E000095",
+    "event_timestamp": "2025-02-04T14:40:00Z",
+    "customer_id": "C0020",
+    "event_type": "profile_update",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0006",
+      "device_type": "Android",
+      "ip_country": "GB"
+    },
+    "attributes": {
+      "session_duration_sec": 1380,
+      "risk_score": 0.273,
+      "tags": [
+        "",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": [
+      "A00027"
+    ]
+  },
+  {
+    "event_id": "E000096",
+    "event_timestamp": "2025-09-10T21:47:00Z",
+    "customer_id": "C0051",
+    "event_type": "login",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0033",
+      "device_type": "Web",
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 2718,
+      "risk_score": 0.54,
+      "tags": [
+        "vpn",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": [
+      "A00033"
+    ]
+  },
+  {
+    "event_id": "E000097",
+    "event_timestamp": "2025-11-27T00:44:00Z",
+    "customer_id": "C0043",
+    "event_type": "profile_update",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "5.1.0"
+    },
+    "device": {
+      "device_id": "D0034",
+      "device_type": "iOS",
+      "ip_country": "GB"
+    },
+    "attributes": {
+      "session_duration_sec": 2045,
+      "risk_score": 0.213,
+      "tags": [
+        "repeat_login",
+        "海外"
+      ]
+    },
+    "related_accounts": [
+      "A00069",
+      "A00079"
+    ]
+  },
+  {
+    "event_id": "E000098",
+    "event_timestamp": "2025-11-12T19:53:00Z",
+    "customer_id": "C0060",
+    "event_type": "profile_update",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "5.1.0"
+    },
+    "device": {
+      "device_id": "D0034",
+      "device_type": "iOS",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 1895,
+      "risk_score": 0.148,
+      "tags": [
+        "vpn",
+        "海外"
+      ]
+    },
+    "related_accounts": [
+      "A00053"
+    ]
+  },
+  {
+    "event_id": "E000099",
+    "event_timestamp": "2025-08-21T00:52:00Z",
+    "customer_id": "C0056",
+    "event_type": "login",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0027",
+      "device_type": "Web",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 2647,
+      "risk_score": 0.161,
+      "tags": [
+        "",
+        "vpn"
+      ]
+    },
+    "related_accounts": [
+      "A00031"
+    ]
+  },
+  {
+    "event_id": "E000100",
+    "event_timestamp": "2025-03-24T16:34:00Z",
+    "customer_id": "C0010",
+    "event_type": "payment_initiated",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0020",
+      "device_type": null,
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 2294,
+      "risk_score": 0.991,
+      "tags": [
+        "repeat_login",
+        "new_device"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000101",
+    "event_timestamp": "2025-04-27T00:59:00Z",
+    "customer_id": "C0018",
+    "event_type": "payment_initiated",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0018",
+      "device_type": "iOS",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 2960,
+      "risk_score": 0.486,
+      "tags": [
+        "new_device",
+        ""
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000102",
+    "event_timestamp": "2025-08-17T13:53:00Z",
+    "customer_id": "C0039",
+    "event_type": "beneficiary_added",
+    "source": {
+      "system": "mobile_app",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0024",
+      "device_type": "Android",
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 3440,
+      "risk_score": 0.724,
+      "tags": [
+        "vpn",
+        ""
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000103",
+    "event_timestamp": "2025-12-31T06:28:00Z",
+    "customer_id": "C0060",
+    "event_type": "login",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0032",
+      "device_type": "Android",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 2457,
+      "risk_score": 0.122,
+      "tags": [
+        "海外",
+        ""
+      ]
+    },
+    "related_accounts": [
+      "A00050",
+      "A00031"
+    ]
+  },
+  {
+    "event_id": "E000104",
+    "event_timestamp": "2025-11-04T22:10:00Z",
+    "customer_id": "C0014",
+    "event_type": "payment_initiated",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0014",
+      "device_type": "Web",
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 1673,
+      "risk_score": 0.254,
+      "tags": [
+        "",
+        "new_device"
+      ]
+    },
+    "related_accounts": [
+      "A00069"
+    ]
+  },
+  {
+    "event_id": "E000105",
+    "event_timestamp": "2025-09-30T20:26:00Z",
+    "customer_id": "C0045",
+    "event_type": "login",
+    "source": {
+      "system": "internet_banking",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0031",
+      "device_type": "iOS",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 3213,
+      "risk_score": 0.937,
+      "tags": [
+        "海外",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": [
+      "A00048",
+      "A00040"
+    ]
+  },
+  {
+    "event_id": "E000106",
+    "event_timestamp": "2025-01-16T08:17:00Z",
+    "customer_id": "C0042",
+    "event_type": "profile_update",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "5.1.0"
+    },
+    "device": {
+      "device_id": "D0016",
+      "device_type": "Web",
+      "ip_country": "GB"
+    },
+    "attributes": {
+      "session_duration_sec": 1576,
+      "risk_score": 0.309,
+      "tags": [
+        "海外",
+        "new_device"
+      ]
+    },
+    "related_accounts": [
+      "A00031",
+      "A00057"
+    ]
+  },
+  {
+    "event_id": "E000107",
+    "event_timestamp": "2025-10-10T21:01:00Z",
+    "customer_id": "C0001",
+    "event_type": "password_reset",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0006",
+      "device_type": "iOS",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 862,
+      "risk_score": 0.859,
+      "tags": [
+        "vpn",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": [
+      "A00041",
+      "A00083"
+    ]
+  },
+  {
+    "event_id": "E000108",
+    "event_timestamp": "2025-10-23T20:24:00Z",
+    "customer_id": "C0051",
+    "event_type": "login",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "5.1.0"
+    },
+    "device": {
+      "device_id": "D0032",
+      "device_type": null,
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 3446,
+      "risk_score": 0.333,
+      "tags": [
+        "repeat_login",
+        "new_device"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000109",
+    "event_timestamp": "2025-07-10T00:46:00Z",
+    "customer_id": "C0033",
+    "event_type": "login",
+    "source": {
+      "system": "internet_banking",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0021",
+      "device_type": null,
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 3122,
+      "risk_score": 0.052,
+      "tags": [
+        "vpn",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": [
+      "A00018",
+      "A00001"
+    ]
+  },
+  {
+    "event_id": "E000110",
+    "event_timestamp": "2025-10-19T18:04:00Z",
+    "customer_id": "C0013",
+    "event_type": "beneficiary_added",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "5.1.0"
+    },
+    "device": {
+      "device_id": "D0008",
+      "device_type": "iOS",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 2116,
+      "risk_score": 0.714,
+      "tags": [
+        "vpn",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": [
+      "A00058"
+    ]
+  },
+  {
+    "event_id": "E000111",
+    "event_timestamp": "2025-12-15T08:02:00Z",
+    "customer_id": "C0056",
+    "event_type": "payment_initiated",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0021",
+      "device_type": "Web",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 346,
+      "risk_score": 0.414,
+      "tags": [
+        "vpn",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": [
+      "A00074"
+    ]
+  },
+  {
+    "event_id": "E000112",
+    "event_timestamp": "2025-06-13T11:11:00Z",
+    "customer_id": "C0002",
+    "event_type": "login",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0006",
+      "device_type": null,
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 1073,
+      "risk_score": 0.701,
+      "tags": [
+        "vpn",
+        "new_device"
+      ]
+    },
+    "related_accounts": [
+      "A00080"
+    ]
+  },
+  {
+    "event_id": "E000113",
+    "event_timestamp": "2025-11-09T07:37:00Z",
+    "customer_id": "C0039",
+    "event_type": "beneficiary_added",
+    "source": {
+      "system": "mobile_app",
+      "app_version": "5.1.0"
+    },
+    "device": {
+      "device_id": "D0024",
+      "device_type": "iOS",
+      "ip_country": "GB"
+    },
+    "attributes": {
+      "session_duration_sec": 481,
+      "risk_score": 0.014,
+      "tags": [
+        "",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": [
+      "A00087"
+    ]
+  },
+  {
+    "event_id": "E000114",
+    "event_timestamp": "2025-12-26T19:52:00Z",
+    "customer_id": "C0008",
+    "event_type": "payment_initiated",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0013",
+      "device_type": "Web",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 3058,
+      "risk_score": 0.494,
+      "tags": [
+        "vpn",
+        "repeat_login"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000115",
+    "event_timestamp": "2025-06-06T23:17:00Z",
+    "customer_id": "C0053",
+    "event_type": "beneficiary_added",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0027",
+      "device_type": "iOS",
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 3246,
+      "risk_score": 0.146,
+      "tags": [
+        "海外",
+        ""
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000116",
+    "event_timestamp": "2025-11-25T09:23:00Z",
+    "customer_id": "C0059",
+    "event_type": "payment_initiated",
+    "source": {
+      "system": "internet_banking",
+      "app_version": null
+    },
+    "device": {
+      "device_id": "D0006",
+      "device_type": "Android",
+      "ip_country": "AE"
+    },
+    "attributes": {
+      "session_duration_sec": 546,
+      "risk_score": 0.871,
+      "tags": [
+        "repeat_login",
+        "vpn"
+      ]
+    },
+    "related_accounts": [
+      "A00050",
+      "A00055"
+    ]
+  },
+  {
+    "event_id": "E000117",
+    "event_timestamp": "2025-07-06T13:52:00Z",
+    "customer_id": "C0005",
+    "event_type": "login",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "5.1.0"
+    },
+    "device": {
+      "device_id": "D0004",
+      "device_type": "Web",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 1929,
+      "risk_score": 0.908,
+      "tags": [
+        "",
+        "new_device"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000118",
+    "event_timestamp": "2025-07-04T16:58:00Z",
+    "customer_id": "C0033",
+    "event_type": "profile_update",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0026",
+      "device_type": "Web",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 2292,
+      "risk_score": 0.041,
+      "tags": [
+        "vpn",
+        "海外"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000119",
+    "event_timestamp": "2025-12-25T21:00:00Z",
+    "customer_id": "C0060",
+    "event_type": "beneficiary_added",
+    "source": {
+      "system": "internet_banking",
+      "app_version": "5.2.1"
+    },
+    "device": {
+      "device_id": "D0006",
+      "device_type": "Web",
+      "ip_country": "GB"
+    },
+    "attributes": {
+      "session_duration_sec": 1774,
+      "risk_score": 0.142,
+      "tags": [
+        "new_device",
+        "海外"
+      ]
+    },
+    "related_accounts": []
+  },
+  {
+    "event_id": "E000120",
+    "event_timestamp": "2025-04-04T02:42:00Z",
+    "customer_id": "C0032",
+    "event_type": "beneficiary_added",
+    "source": {
+      "system": "branch_portal",
+      "app_version": "4.9.8"
+    },
+    "device": {
+      "device_id": "D0028",
+      "device_type": "Web",
+      "ip_country": "IN"
+    },
+    "attributes": {
+      "session_duration_sec": 2511,
+      "risk_score": 0.83,
+      "tags": [
+        "海外",
+        ""
+      ]
+    },
+    "related_accounts": [
+      "A00022"
+    ]
+  }
+]

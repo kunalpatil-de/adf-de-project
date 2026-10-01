@@ -1,0 +1,6 @@
+branch_id,branch_name,city,state,region,opened_date
+BR001,Mumbai Fort,Mumbai,Maharashtra,West,2001-04-15
+BR002,Pune Central,Pune,Maharashtra,West,2008-09-01
+BR003,Bengaluru MG Road,Bengaluru,Karnataka,South,2010-01-10
+BR004,Delhi Connaught Place,New Delhi,Delhi,North,1998-06-20
+BR005,Hyderabad Banjara Hills,Hyderabad,Telangana,South,2015-11-03
