@@ -1,0 +1,61 @@
+customer_id,first_name,last_name,date_of_birth,email,phone,city,customer_segment,kyc_status,created_at,is_active
+C0001,Aarav,Khan,1981-12-20,customer1@example.com,+916958682846,Pune,Retail,Expired,2020-04-01,True
+C0002,Aarav,Shah,1968-05-28,customer2@example.com,+916939042955,Pune,Retail,Expired,2023-09-25,True
+C0003,Rohan,Iyer,2000-04-19,customer3@example.com,+918530876844,Bengaluru,Retail,Verified,2025-02-10,False
+C0004,Ishaan,Reddy,1979-04-26,customer4@example.com,+919279182318,Bengaluru,Retail,Verified,2022-10-25,False
+C0005,Anaya,Mehta,1983-09-24,,+919466589567,Mumbai,Corporate,Expired,2020-02-01,True
+C0006,Diya,Kulkarni,1986-04-20,customer6@example.com,+919562265906,,SME,Expired,2023-03-31,True
+C0007,Aarav,Iyer,1985-12-17,customer7@example.com,+916342703921,Pune,Retail,Pending,2019-10-12,True
+C0008,Arjun,Mehta,1974-08-04,customer8@example.com,+917589915144,  Mumbai ,Premium,Expired,2024-02-01,True
+C0009,Ira,Reddy,2007-12-02,customer9@example.com,+919131575764,Pune,Premium,Pending,2019-10-20,False
+C0010,Arjun,Kulkarni,1979-09-14,customer10@example.com,+918940395823,Bengaluru,Retail,Verified,2022-01-10,True
+C0011,Rohan,Khan,1965-12-08,customer11@example.com,+916906164396,Hyderabad,SME,Verified,2022-07-16,False
+C0012,Arjun, Rao,not_a_date,customer12@example.com,+917137651678,Pune,Premium,Expired,2023-06-09,True
+C0013,Rohan,Singh,1995-10-31,customer13@example.com,+917554762903,Pune,Premium,Expired,2025-07-22,False
+C0014,Aarav,Patel,1973-09-17,customer14@example.com,+918694860228,Pune,Corporate,Expired,2020-01-08,True
+C0015,Rohan,Singh,2001-12-28,customer15@example.com,+918272528809,Bengaluru,Retail,Expired,2023-04-26,True
+C0016,Ishaan,Mehta,1970-01-03,customer16@example.com,+917260573448,Delhi,retail ,Pending,2025-01-08,True
+C0017,Vivaan,Reddy,2005-07-18,customer17@example.com,+919919706735,Mumbai,SME,Expired,2021-12-14,True
+C0018,Anaya,Reddy,2008-05-22,customer18@example.com,+919344175247,Hyderabad,Retail,Expired,2020-09-18,True
+C0019,Aarav,Patel,1992-07-25,customer19@example.com,+919774081712,Bengaluru,Premium,Verified,2024-06-24,True
+C0020,Diya,Patel,2003-08-07,customer20@example.com,+919504793184,Mumbai,Premium,Verified,2025-05-12,False
+C0021,Kabir,Khan,2007-05-04,customer21@example.com,+919747071386,Hyderabad,Corporate,,2025-03-01,True
+C0022,Rohan,Mehta,1999-04-21,customer22@example.com,+919863813067,Hyderabad,Corporate,Verified,2022-06-30,True
+C0023,Diya,Mehta,1961-11-20,customer23@example.com,+918526766690,Hyderabad,Premium,Expired,2021-07-09,True
+C0024,Diya,Shah,1980-07-15,customer24@example.com,+916289482182,Mumbai,SME,Verified,2019-01-30,True
+C0025,Arjun, Rao,1979-03-22,customer25@example.com,+918315992115,Pune,Corporate,Verified,2022-02-14,False
+C0026,Meera,Patel,1968-09-11,customer26@example.com,invalid-phone,Delhi,SME,Pending,2023-07-26,False
+C0027,Nisha,Shah,1968-10-29,customer27@example.com,+916260329455,Delhi,SME,Verified,2024-03-27,True
+C0028,Meera,Kulkarni,2000-03-31,customer28@example.com,+916602078388,Delhi,Premium,Pending,2021-02-23,False
+C0029,Diya, Rao,1968-10-13,customer29@example.com,+916217275224,,Retail,Verified,2021-10-20,True
+C0030,Rohan, Rao,2003-03-09,customer30@example.com,+916918037633,Delhi,Retail,Verified,2020-11-12,False
+C0001,Rohan,Khan,2000-10-26,customer31@example.com,+917225136114,Delhi,Corporate,Verified,2019-01-09,True
+C0032,Meera,Shah,2008-08-22,customer32@example.com,+916261810763,,SME,Verified,2022-04-30,True
+C0033,Sara,Kulkarni,2007-08-25,customer33@example.com,+916676168421,Mumbai,Retail,Verified,2025-07-20,True
+C0034,Arjun,Iyer,1996-03-22,customer34@example.com,+916514909066,Hyderabad,Premium,Expired,2019-10-06,True
+C0035,Rohan,Singh,2006-11-25,customer35@example.com,+917358798143,Bengaluru,Premium,Expired,2019-12-02,True
+C0036,Ishaan,Das,1971-09-28,customer36@example.com,+918884887548,,SME,Pending,,True
+C0037,Aarav, Rao,1968-12-20,customer37@example.com,+916314652384,Hyderabad,Premium,Expired,2019-10-25,True
+C0038,Anaya,Patel,1981-11-30,customer38@example.com,+917587106770,Bengaluru,Premium,Pending,2020-06-26,True
+C0039,Aarav,Kulkarni,1986-11-10,customer39@example.com,+918849232839,Mumbai,Premium,Pending,2024-12-06,True
+C0040,Nisha,Kulkarni,1973-12-11,customer40@example.com,+917169726681,Bengaluru,Premium,Expired,2020-03-14,True
+C0041,Arjun,Khan,2005-05-05,customer41@example.com,+918098228320,Bengaluru,Retail,Verified,2021-04-13,False
+C0042,Aarav,Shah,1989-12-03,customer42@example.com,+919311931853,Pune,SME,Verified,2022-02-07,False
+C0043,Nisha,Das,1960-11-12,customer43@example.com,+916480494664,Mumbai,Premium,Expired,2025-03-09,True
+C0044,Ira,Kulkarni,1973-04-14,customer44@example.com,+917845919895,Pune,Retail,Pending,2023-02-21,True
+C0045,Anaya,Iyer,1982-05-21,customer45@example.com,+918864457210,Mumbai,SME,Expired,2019-06-13,False
+C0046,Meera,Reddy,1975-11-19,customer46@example.com,+919785653776,Delhi,Retail,Verified,2020-09-25,True
+C0047,Arjun,Iyer,1983-12-08,customer47@example.com,+916683749521,,Retail,Pending,2023-08-14,True
+C0048,Meera,Iyer,2001-04-18,customer48@example.com,+917501771491,Bengaluru,Premium,Verified,2024-04-11,True
+C0049,Rohan,Mehta,1984-12-29,customer49@example.com,+919712367625,Mumbai,SME,Pending,2021-03-02,False
+C0050,Anaya,Shah,1970-05-07,customer50@example.com,+919766851291,Bengaluru,Premium,Expired,2025-01-05,True
+C0051,Diya,Singh,1998-12-26,customer51@example.com,+917484714820,,SME,Pending,2019-06-06,True
+C0052,Ira,Iyer,1982-11-07,customer52@example.com,+916190638698,,Corporate,Verified,2023-04-27,True
+C0053,Rohan,Patel,1989-08-15,customer53@example.com,+918676432103,Bengaluru,Retail,Expired,2023-01-31,True
+C0054,Ishaan,Das,1989-04-06,customer54@example.com,+917728296502,,SME,Expired,2024-09-08,True
+C0055,Rohan,Das,1975-08-12,customer55@example.com,+918643616431,Hyderabad,SME,Pending,2021-02-24,True
+C0056,Ishaan,Iyer,1998-07-26,customer56@example.com,+919374808475,Hyderabad,SME,Pending,2022-05-29,False
+C0057,Arjun,Iyer,2005-11-10,customer57@example.com,+918032319170,,Premium,Expired,2023-12-17,True
+C0058,Vivaan,Singh,1990-01-26,customer58@example.com,+916401094954,Pune,SME,Verified,2022-03-08,True
+C0059,Aarav,Shah,1981-12-19,customer59@example.com,+918040695043,Hyderabad,Retail,Pending,2020-08-26,False
+C0060,Meera,Das,2004-05-08,customer60@example.com,+917716495971,Pune,Premium,Expired,2025-06-15,True
